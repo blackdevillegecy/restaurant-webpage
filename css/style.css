@@ -16,7 +16,8 @@ nav {
     padding-bottom: 14px;
     text-align: center;
     color: rgb(180, 140, 140);
-
+    width: fit-content;
+    margin: auto;
 }
 
 #logo {
