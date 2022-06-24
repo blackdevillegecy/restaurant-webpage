@@ -1,0 +1,42 @@
+body {
+    background-image: url("../img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    background-attachment: fixed;
+}
+
+.container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 18vh;
+    text-align: center;
+    height: 78vh;
+}
+
+/* heading */
+h1 {
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    margin: auto;
+    padding: 1.5vh 1vw;
+}
+
+/* image */
+img {
+    box-shadow: 0 0 5px 2px black;
+    margin-top: 5vh;
+}
+
+/* description */
+p {
+    font-size: 18px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    padding: 1.5vh 1vw;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}

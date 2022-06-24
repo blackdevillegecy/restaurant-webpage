@@ -1,0 +1,48 @@
+body {
+    background-image: url("../img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    height: 62vh;
+    padding-top: 25vh;
+}
+
+h2 {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+#developers-name, h2, a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1vh 1vw;
+  border-radius: 5px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#developers-name {
+    padding-top: 0;
+    border: 1px solid red;
+    width: fit-content;
+    margin: 5vh auto 0;
+    padding-bottom: 2vh;
+}
+
+h1 {
+    font-size: 27px;
+    background-color: rgba(255, 255, 255);
+    color: black;
+    padding: 1vh 1vw;
+    border-radius: 6px;
+}

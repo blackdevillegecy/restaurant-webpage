@@ -1,0 +1,30 @@
+body {
+    background-image: url("../img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    height: 62vh;
+    padding-top: 35vh;
+}
+
+/* heading */
+h1 {
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1vh 1vw;
+    color: white;
+    border-radius: 5px;
+}
+
+/* about mehfil */
+p {
+    font-size: 19px;
+    margin-top: 3vh;
+}
