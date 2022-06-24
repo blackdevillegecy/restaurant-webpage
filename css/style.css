@@ -1,95 +1,82 @@
 body {
-    background-image: url('../img/Caffe.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(4px);
-    background-attachment: fixed;
+  background-image: url("../img/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  background-attachment: fixed;
 }
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
-} 
-nav {
-    background-color: rgba(0, 0, 0, 0.41);
-    padding-top: 14px;
-    padding-bottom: 14px;
-    text-align: center;
-    color: rgb(180, 140, 140);
-    width: fit-content;
-    margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
 }
 
+a {
+    font-size: 20px;
+}
+
+/* navigation bar designing */
+nav {
+  background-color: rgba(0, 0, 0, 0.41);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  color: rgb(180, 140, 140);
+  width: fit-content;
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 1vw;
+}
+
+/* social media link designing */
 #logo {
-    margin: auto;
-    width: fit-content;
-    margin-top: 2vh;
+  margin: auto;
+  width: fit-content;
+  margin-top: 2vh;
 }
 
 #logo a {
-    margin: 0 0.4vw;
-}
-    
-main {
-    height: 400px;
-    text-align: center;
-    padding-top: 150px;
-    padding-left: 240px;
-    padding-right: 240px;
+  margin: 0 0.4vw;
 }
 
-footer {
-    height: 25px;
-    text-align: center;
+/* main body designing */
+main {
+  height: 400px;
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 
 h1 {
-    font-size: 60px;
-    color: black;
-    font-family: 'Merriweather', serif;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 6px;
-    
+  font-size: 60px;
+  color: black;
+  font-family: "Merriweather", serif;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
 }
+
 p {
     font-size: 18px;
     color: white;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     padding: 1.5vh 1vw;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.4);
     letter-spacing: 0.6px;
-
-}
-a {
-    font-size: 20px;
-}
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0 1vw;
 }
 
-
-
-footer a {
-    font-size: 22px;
-    padding: 20px 12px ;
-    color: white;
-    text-decoration: none;
-    margin-left: 25px;
-    margin-right: 25px;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 5px;
-}
 h2 {
-    margin: auto;
-    color: white;
-    /* border: 1px solid red; */
-    padding: 1vh 0;
+  margin: auto;
+  color: white;
+  padding: 1vh 0;
 }
 
 #make-reservation {
@@ -97,4 +84,21 @@ h2 {
     width: 300px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* footer designing */
+footer {
+  height: 25px;
+  text-align: center;
+}
+
+footer a {
+  font-size: 22px;
+  padding: 20px 12px;
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
 }
